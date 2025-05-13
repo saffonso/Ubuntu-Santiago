@@ -1,4 +1,4 @@
-## Apps e pacotes a ser instaldos
+## Apps e pacotes a serem instaldos
 - Vim
 - VsCode
 - 1password
