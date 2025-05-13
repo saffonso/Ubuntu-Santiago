@@ -8,6 +8,9 @@ sudo snap install code --classic
 sudo snap install 1password
 sudo snap install discord --classic
 sudo apt install git -y
+sudo apt install wget
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo dpkg -i google-chrome-stable_current_amd64.deb
 echo 'Fazendo instalação do node'
 # Descarregar e instalar a nvm:
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.2/install.sh | bash
