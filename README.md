@@ -8,3 +8,6 @@
 - Postman 
 - Mysql
 - NodeJs
+# Para fazer a instalação
+### `chmod +x apps.sh`
+### `./apps.sh` 
