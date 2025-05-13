@@ -6,11 +6,12 @@ sudo apt install curl
 sudo apt install vim -y
 sudo snap install code --classic
 sudo snap install 1password
-sudo snap install discord --classic
 sudo apt install git -y
 sudo apt install wget
+wget -O discord.deb "https://discord.com/api/download?platform=linux&format=deb"
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo dpkg -i google-chrome-stable_current_amd64.deb
+sudo dpkg -i discord.deb
 sudo snap install postman
 sudo apt install mysql-client-core-8.0
 echo 'Fazendo instalação do node'
