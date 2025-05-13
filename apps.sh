@@ -11,6 +11,8 @@ sudo apt install git -y
 sudo apt install wget
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo dpkg -i google-chrome-stable_current_amd64.deb
+sudo snap install postman
+sudo apt install mysql-client-core-8.0
 echo 'Fazendo instalação do node'
 # Descarregar e instalar a nvm:
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.2/install.sh | bash
